@@ -1,0 +1,106 @@
+{
+  "version": "1.0.1",
+  "app_enabled": true,
+  "app_disabled_title": "Технические работы",
+  "app_disabled_message": "Лаунчер временно недоступен.\nПриносим извинения за неудобства.",
+  "telegram_url": "https://t.me/AwieDarling",
+  "instruction_video_url": "https://www.dropbox.com/scl/fi/osfh8285d7ss304ah27tc/video-guide.mp4?rlkey=f8vzv2p6zptj8w8tk47470ywp&st=2d13kfo0&dl=1",
+  "games": [
+    {
+      "id": "wutheringwaves_mobile",
+      "name": "Wuthering Waves (Mobile)",
+      "description": "Русификация текстов мобильной версии",
+      "version": "3.6.02",
+      "icon_url": "https://www.dropbox.com/scl/fi/4iy27n20c6zr2nhm5jesh/WuWa-icon.jpg?rlkey=nc90rabhvnx55remetpaibrzu&st=4wme5l4d&dl=1",
+      "background_url": "https://www.dropbox.com/scl/fi/ci694xyhqc7fac6oiblrf/wuwa-wallapper.jpg?rlkey=fn0nns99lvk71betmyazy3ekn&st=vk2kn4wu&dl=1",
+      "package_name": "com.kurogame.wutheringwaves.global",
+      "target_path": "files/UE4Game/Client/Client/Saved/Paks",
+      "install_type": "copy",
+      "backup_originals": false,
+      "tags": ["RPG", "Аниме"],
+      "variants": [
+        {
+          "id": "russian_text",
+          "name": "Русские тексты",
+          "description": "Перевод текстов на русский",
+          "filename": "pakchunk0-Android_ASTC_10000_P.pak",
+          "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10000_P.pak",
+          "sha256": "fea43d27cf3abe85dcac7a821d64dcdab98e3faace2134abf244212b41a1d48a",
+          "size": 65562421,
+          "optional": false,
+          "default_selected": true,
+          "selection_type": "checkbox"
+        },
+        {
+          "id": "russian_font",
+          "name": "Шрифт",
+          "description": "Выберите стиль шрифта",
+          "filename": "",
+          "url": "",
+          "size": 0,
+          "optional": true,
+          "default_selected": true,
+          "selection_type": "select",
+          "default_option": "font_default",
+          "select_options": [
+            {
+              "value": "font_default",
+              "label": "Genshin Impact",
+              "filename": "pakchunk0-Android_ASTC_10001_P.pak",
+              "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10001_P.pak",
+              "sha256": "8027c563efac2c1b68613c52328a6edd9cbeab65c27e14b8b2242578b6e2d5f6",
+              "size": 0
+            },
+            {
+              "value": "font_awie",
+              "label": "Свой – Awie",
+              "filename": "pakchunk0-Android_ASTC_10002_P.pak",
+              "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10002_P.pak",
+              "sha256": "b6b2ebfc1c185203ea51dcdf65ecb00501e1c09301e00a95748029a872bbaced",
+              "size": 0
+            },
+            {
+              "value": "font_new",
+              "label": "Шрифт команды",
+              "filename": "pakchunk0-Android_ASTC_10003_P.pak",
+              "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10003_P.pak",
+              "sha256": "4639c372450bd8a52c4feec119ae88a31a458da481d73117ff15934c5316c77b",
+              "size": 0
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arknights_mobile",
+      "name": "Arknights (Mobile)",
+      "description": "Русификация текстов мобильной версии",
+      "version": "36.7.04",
+      "icon_url": "https://aniwie.ru/static/IMG/arknights.png",
+      "background_url": "",
+      "package_name": "com.YoStarEN.Arknights",
+      "target_path": "files",
+      "install_type": "unzip",
+      "backup_originals": true,
+      "tags": ["Strategy", "Anime"],
+      "variants": [
+        {
+          "id": "arknights_files",
+          "name": "Русские тексты",
+          "description": "Перевод текстов на русский",
+          "filename": "AndroidRus_DITF.zip",
+          "url": "https://github.com/AniWie/paks/releases/download/arknights-files/AndroidRus_DITF.zip",
+          "sha256": "b5af4cb5abd6ac74cd6837104a5e67dcde0d601389f756ad72f8f0740c84631a",
+          "size": 21620989,
+          "optional": false,
+          "default_selected": true,
+          "selection_type": "checkbox"
+        }
+      ]
+    }
+  ]
+}
+
+
+
+

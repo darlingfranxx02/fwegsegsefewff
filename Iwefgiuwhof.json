@@ -1,0 +1,15 @@
+{
+  "isEnabled": true,
+  "maintenanceMessage": "Сервер перегружен, установка временно недоступна.",
+  "appName": "RusLauncher",
+  "appDisplayName": "DITF",
+  "version": "1.0.6",
+  "downloadUrl": "https://www.dropbox.com/scl/fi/f0dlfjfsmckxwcr570gk5/Launcher.zip?rlkey=o3aw39zzhtz6m39dyfqqq17qw&st=9369yk9h&dl=1",
+  "shortcutName": "DITF",
+  "exeName": "DITF.exe",
+  "publisher": "AniWie",
+  "defaultInstallPath": "RusLauncher",
+  "createStartMenu": false,
+  "createDesktopShortcut": false,
+  "launchAfterInstall": false
+}

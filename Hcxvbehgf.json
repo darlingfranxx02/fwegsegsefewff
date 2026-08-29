@@ -1,0 +1,90 @@
+{
+  "latestVersion": "1.0.7",
+  "integrityCheckEnabled": true,
+  "versions": [
+      {
+      "version": "1.0.7",
+      "hashes": {
+        "DITF.exe": "d52a5d110df68fb81303d26a091240c8f23427504bf3677b283a98fa2ed0772f",
+        "RusLauncher.dll": "7e8e4b4bfda29a218474dd899ed4fd8fdaa86bc90ffae827e50f97b56dec35c9",
+        "RusLauncher.exe": "19901B771AC0195A0F83AEF02DF0DC9827D4462FF6F20A6DE7D10ECB4C45AC09",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+      {
+      "version": "1.0.9",
+      "hashes": {
+        "DITF.exe": "d69762fe8ebdfe03780b339b670834c69ff9a2f68240ea6614691ea51526b1e2",
+        "RusLauncher.dll": "5fa01689047432c4ee9b78021af80a3d4528db0a7ee75af771eb7ea857822331",
+        "RusLauncher.exe": "f9b147017984ec84fbfadb96ee5bb12532d674716d25caada42a7b5b6b541fd6",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+      {
+      "version": "1.0.10",
+      "hashes": {
+        "DITF.exe": "842f43f9bb4f479c4b4f6b7061d19c0831830bc8e402d087ae7cc803bed5271c",
+        "RusLauncher.dll": "36b7b321c29c601339acb172b01828d9d3139eea2ba92e4273bf382b1701dbe7",
+        "RusLauncher.exe": "6c650dd03ab3a319e594abd6e65a6535f39c64e989514971b257f0798d91b10a",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+      {
+      "version": "1.0.11",
+      "hashes": {
+        "DITF.exe": "140801e5992df35a9aa2151c2b98cca86f2070fcdc9658be3da47091b5aeda99",
+        "RusLauncher.dll": "f5fe68412c06f85295245f3628ef284212146663ab8157879547446c01e06a02",
+        "RusLauncher.exe": "304e164b4b735a97a888493a9e18167a1341f817dc3f9aaaa097108e6370bade",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+      {
+      "version": "1.1.0",
+      "hashes": {
+        "DITF.exe": "749671791947ab7993888ad38eb10e5af68c3c8f4121e4f6e4b131d94f3e7871",
+        "RusLauncher.dll": "dccb3c89bcff2a98b3995da000cefe3ba5973039faab3406291559ed2a234d66",
+        "RusLauncher.exe": "f69013f396db3b18cd3c847f2ebde9c8efb179534ffb212c17fb453937a5f29b",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+      {
+      "version": "1.1.0",
+      "hashes": {
+        "DITF.exe": "9f042606e018a138855eb09850e163fd724f05055a7d004117afec7d7cce00ed",
+        "RusLauncher.dll": "eb521387625bddcb500d7450aa7ee2e2e282cccc10e8deb334466731975cdbea",
+        "RusLauncher.exe": "f69013f396db3b18cd3c847f2ebde9c8efb179534ffb212c17fb453937a5f29b",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+
+      {
+      "version": "1.1.01",
+      "hashes": {
+        "DITF.exe": "db621d127bbab231b495abc16ccbad69de53e2ebe9d8e3179f9c3be6cf134343",
+        "RusLauncher.dll": "56979ed09c9e2c770f52c07f321d035e9a8f36e41be5d21878632caba24a5a5d",
+        "RusLauncher.exe": "d6c42dd9f1130ceb49280d79cdecfd65f3f4cb66d0006242bf09c54983e2b424",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    },
+
+      {
+      "version": "1.1.2",
+      "hashes": {
+        "DITF.exe": "cb80dd87658e4ad8cba3ffada72771464d7d115af75d04229a47a28c5a563b6e",
+        "RusLauncher.dll": "0bf48d41876f89f77177a7e2029b17eae84eae478a7d6019bcc6e2a8fd1379ab",
+        "RusLauncher.exe": "d7d81438514b6c840349e3f2a7d8994ccbb80f04b177182e9b141c8025b25bbb",
+        "Updater.exe": "2e76406f914d37fad620e995f746c207fd72fd87308ecd2509fb6decf070bd04",
+        "Updater.dll": "9df176879f49c37501b618a11080ac432fd9fdd1a75a260550fa65c1b5abba02"
+      }
+    }
+
+  ]
+}
+

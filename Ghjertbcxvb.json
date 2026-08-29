@@ -1,0 +1,312 @@
+{
+  "version": "1.0.9",
+  "last_updated": "2026-07-17T00:00:00Z",
+  "news_title": "🍃 Много исправлений",
+  "news_content": "• Добавлена русификация вувы\n\n• Будут проблемы – пишите в тг.\n\n• Не скачиается русификация - используйте впн!",
+  "games": [
+    {
+      "id": "duetnightabyss",
+      "name": "Duet Night Abyss",
+      "description": "Русификация текстов игры",
+      "version": "1.5.01",
+      "icon_url": "https://aniwie.ru/static/IMG/dna-icon.jpg",
+      "background_url": "https://aniwie.ru/static/IMG/dna-wallpaper.jpeg",
+      "install_config": {
+        "target_path": "EM\\Content\\Paks",
+        "executable_name": "EM\\Binaries\\Win64\\EM-Win64-Shipping.exe",
+        "post_install_args": "-fileopenlog",
+        "run_after_install": false,
+        "prompt_run_after_install": false,
+        "requires_launcher_run": true,
+        "launch_button_text": "▶  Запустить игру",
+        "steam_app_id": 2550740,
+        "detect_files": [
+          "EM.exe",
+          "EM\\Binaries\\Win64\\EM-Win64-Shipping.exe"
+        ],
+        "detect_folders": [
+          "Duet Night Abyss",
+          "DNA Game",
+          "EM"
+        ],
+        "backup_type": "none",
+        "game_process_name": "EM-Win64-Shipping"
+      },
+      "launch_options": [
+        {
+          "id": "dx_version",
+          "label": "DirectX",
+          "type": "select",
+          "description": "Версия DirectX для рендеринга",
+          "default": "dx12",
+          "options": [
+            {
+              "value": "dx11",
+              "label": "DirectX 11",
+              "args": "-dx11"
+            },
+            {
+              "value": "dx12",
+              "label": "DirectX 12",
+              "args": "-dx12"
+            }
+          ]
+        }
+      ],
+      "variants": [
+        {
+          "id": "russian_text",
+          "name": "Русские тексты",
+          "description": "Перевод текстов игры на русский язык",
+          "group": "text",
+          "group_label": "Тексты",
+          "filename": "pakchunk_WindowsNoEditor_70003000_P.pak",
+          "url": "https://github.com/AniWie/paks/releases/download/dna-paks/pakchunk_WindowsNoEditor_70003000_P.pak",
+          "size": 7404508,
+          "type": "Pak",
+          "optional": false,
+          "default_selected": true,
+          "hash": "efafbc25b434caa761aa4d17730cd21a3b508c6eca2082c0b4f833958704cd1d"
+        },
+        {
+          "id": "new_font",
+          "name": "Новый шрифт",
+          "description": "Улучшенный шрифт для лучшей читаемости",
+          "group": "font",
+          "group_label": "Дополнительно",
+          "filename": "pakchunk_WindowsNoEditor_70003001_P.pak",
+          "url": "https://github.com/AniWie/paks/releases/download/dna-paks/pakchunk_WindowsNoEditor_70003001_P.pak",
+          "size": 192669,
+          "type": "Pak",
+          "optional": true,
+          "default_selected": false,
+          "hash": "df8c27406fe80f3b5397d5ffb8de133cb4a4489e6820acdc81cd647d7d875221"
+        }
+      ],
+      "tags": [
+        "RPG",
+        "Аниме",
+        "Открытый мир"
+      ],
+      "release_date": "2025-02-01T00:00:00Z",
+      "last_updated": "2025-02-12T00:00:00Z"
+    },
+    {
+      "id": "wutheringwaves",
+      "name": "Wuthering Waves",
+      "description": "Русификация текстов игры",
+      "version": "3.6.02",
+      "icon_url": "https://aniwie.ru/static/IMG/wuwa-icon-3.5.0.png",
+      "background_url": "https://aniwie.ru/static/IMG/wuwa-wallapper-3.5.0.jpg",
+      "install_config": {
+        "target_path": "Client\\Content\\Paks",
+        "executable_name": "Wuthering Waves.exe",
+        "post_install_args": "-fileopenlog",
+        "run_after_install": false,
+        "prompt_run_after_install": false,
+        "requires_launcher_run": true,
+        "launch_button_text": "▶  Запустить игру",
+        "detect_files": [
+          "Wuthering Waves.exe"
+        ],
+        "detect_folders": [
+          "Wuthering Waves",
+          "Wuthering Waves Game",
+          "Client"
+        ],
+        "backup_type": "none",
+        "game_process_name": "Client-Win64-Shipping",
+        "use_guardani": true,
+        "verification_enabled": true
+      },
+
+        "notice": {
+        "id": "wuwa-25-08-26-1",
+        "title": "По поводу русификации",
+        "body": "Бета версия русификации вувы.\nСо временем стабильность повысится, наверное😐",
+        "bar_text": "По поводу русификации",
+        "dismiss_text": "Сэр, да, сэр!",
+        "buttons": [
+          { "text": "Наш Telegram", "url": "https://t.me/AwieDarling", "style": "primary" }
+        ]
+      },
+
+      "launch_options": [
+        {
+          "id": "dx_version",
+          "label": "DirectX",
+          "type": "select",
+          "description": "Версия DirectX для рендеринга",
+          "default": "dx12",
+          "options": [
+            {
+              "value": "dx11",
+              "label": "DirectX 11",
+              "args": "-dx11"
+            },
+            {
+              "value": "dx12",
+              "label": "DirectX 12",
+              "args": "-dx12"
+            }
+          ]
+        },
+        {
+          "id": "skip_launch",
+          "label": "Skip",
+          "type": "toggle",
+          "description": "Пропуск начальной заставки",
+          "default": false,
+          "args_on": "-SkipSplash",
+          "args_off": ""
+        },
+        {
+          "id": "optimisation",
+          "label": "Оптимизация",
+          "type": "toggle",
+          "description": "Улучшает производительность",
+          "default": false,
+          "args_on": "-ForceEnableCSharpEnvironment",
+          "args_off": ""
+        }
+      ],
+      "variants": [
+        {
+          "id": "russian_text",
+          "name": "Русские тексты",
+          "description": "Перевод текстов игры на русский язык",
+          "group": "text",
+          "group_label": "Тексты",
+          "filename": "pakchunk0-WindowsNoEditor_10000_P.pak",
+          "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10000_P.pak",
+          "size": 65562421,
+          "type": "Pak",
+          "optional": false,
+          "default_selected": true,
+          "hash": "fea43d27cf3abe85dcac7a821d64dcdab98e3faace2134abf244212b41a1d48a"
+        },
+        {
+          "id": "russian_font",
+          "name": "Шрифт",
+          "description": "Выберите стиль шрифта",
+          "group": "font",
+          "group_label": "Шрифты",
+          "url": "",
+          "size": 0,
+          "type": "Pak",
+          "optional": true,
+          "default_selected": false,
+          "selection_type": "select",
+          "default_option": "font_default",
+          "select_options": [
+            {
+              "value": "font_default",
+              "label": "Без шрифта",
+              "filename": "",
+              "url": "",
+              "size": 0,
+              "hash": ""
+            },
+            {
+              "value": "font_genshin",
+              "label": "Genshin Impact",
+              "filename": "pakchunk0-WindowsNoEditor_10001_P.pak",
+              "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10001_P.pak",
+              "size": 11514781,
+              "hash": "8027c563efac2c1b68613c52328a6edd9cbeab65c27e14b8b2242578b6e2d5f6"
+            },
+            {
+              "value": "font_awie",
+              "label": "Свой – Awie",
+              "filename": "pakchunk0-WindowsNoEditor_10002_P.pak",
+              "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10002_P.pak",
+              "size": 587534,
+              "hash": "b6b2ebfc1c185203ea51dcdf65ecb00501e1c09301e00a95748029a872bbaced"
+            },
+            {
+              "value": "font_new",
+              "label": "Шрифт команды",
+              "filename": "pakchunk0-WindowsNoEditor_10003_P.pak",
+              "url": "https://aniwie.ru/static/Paks/WUWA/pakchunk0-1.0.0-1.1.0-WindowsNoEditor_10003_P.pak",
+              "size": 14390898,
+              "hash": "4639c372450bd8a52c4feec119ae88a31a458da481d73117ff15934c5316c77b"
+            }
+          ]
+        }
+      ],
+      "tags": [
+        "RPG",
+        "Аниме",
+        "Открытый мир"
+      ],
+      "release_date": "2025-02-01T00:00:00Z",
+      "last_updated": "2025-02-12T00:00:00Z"
+    },
+    {
+      "id": "arknights",
+      "name": "Arknights",
+      "description": "Русификация текстов игры",
+      "version": "36.0.04",
+      "icon_url": "https://aniwie.ru/static/IMG/arknights.png",
+      "background_url": "https://aniwie.ru/static/IMG/Arknights_wallapper.png",
+      "install_config": {
+        "target_path": "Arknights_Data",
+        "executable_name": "Arknights.exe",
+        "post_install_args": "",
+        "run_after_install": false,
+        "prompt_run_after_install": false,
+        "requires_launcher_run": true,
+        "launch_button_text": "▶  Запустить игру",
+        "detect_files": [
+          "Arknights.exe"
+        ],
+        "detect_folders": [
+          "Arknights_EN",
+          "Arknights"
+        ],
+        "backup_type": "replaced_only",
+        "backup_enabled": true,
+        "game_process_name": "Arknights",
+        "backup_patterns": [
+          "Arknights_Data/PersistentData/Bundles/anon/07d21902d5b3ca3ba2c0aa63f90be92a.bin",
+          "Arknights_Data/PersistentData/Bundles/anon/b63f0ec59e154b5818208d72f93eddf8.bin",
+          "Arknights_Data/PersistentData/Bundles/anon/fc30a9d9e0907f38c7e5de521c8513d6.bin",
+          "Arknights_Data/PersistentData/Bundles/arts/ui/hometheme/[uc]tm_rhodes_day.ab",
+          "Arknights_Data/PersistentData/Bundles/arts/ui/hometheme/[uc]tm_rhodes_night.ab",
+          "Arknights_Data/PersistentData/Bundles/arts/ui/hometheme/[uc]tm_rogue_3.ab",
+          "Arknights_Data/PersistentData/Bundles/arts/ui/hometheme/[uc]tm_rogue_4.ab",
+          "Arknights_Data/PersistentData/Bundles/arts/ui/hometheme/[uc]tm_rogue_5.ab",
+          "Arknights_Data/PersistentData/Bundles/hot_update_list.json",
+          "Arknights_Data/PersistentData/Bundles/persistent_res_list.json"
+        ],
+        "verification_enabled": true,
+        "verification_variant_id": "arknights_files"
+      },
+      "launch_options": [],
+      "variants": [
+        {
+          "id": "arknights_files",
+          "name": "Русские тексты",
+          "description": "Перевод текстов игры на русский язык",
+          "group": "text",
+          "group_label": "Русификация",
+          "filename": "PersistentData.zip",
+          "url": "https://github.com/AniWie/paks/releases/download/arknights-files/PersistentData.zip",
+          "size": 21721215,
+          "type": "Archive",
+          "optional": false,
+          "default_selected": true,
+          "hash": "2b635b0a1816bebd8d357e5f01579381c89ec128fbd158f893a8475963c0f4b9",
+          "relative_path": ""
+        }
+      ],
+      "tags": [
+        "2D",
+        "Аниме",
+        "Стратегия"
+      ],
+      "release_date": "2026-08-13T00:00:00Z",
+      "last_updated": "2026-08-13T00:00:00Z"
+    }
+  ]
+}

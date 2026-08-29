@@ -1,0 +1,24 @@
+{
+  "launcher_enabled": true,
+  "launcher_disabled_message": "Лаунчер временно отключён для технического обслуживания. Попробуйте позже.",
+  "min_version": "1.0.9",
+  "about_avatar_url": "https://aniwie.ru/static/IMG/logo-DITF.png",
+  "disabled_games": {
+    "arknights": {
+      "disabled": false,
+      "title": "Русификация временно недоступна",
+      "message": "Русификация в процессе обновления.\nСледите за новостями в Telegram.",
+      "type": "Warning",
+      "link_url": "https://t.me/AwieDarling",
+      "link_text": "Открыть Telegram"
+    },
+    "wutheringwaves": {
+      "disabled": false,
+      "title": "Русификация временно недоступна",
+      "message": "Посмотрим, что по чем ситуация после обновы -_-\nУдалить русификацию: зайти в папку игры - Client/Content/Paks, там будут паки 10000_P/10001/10002/10003, смотря какие есть удалите и готово.",
+      "type": "Warning",
+      "link_url": "https://t.me/AwieDarling",
+      "link_text": "Открыть Telegram"
+    }
+  }
+}
